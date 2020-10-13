@@ -2,9 +2,19 @@
 //
 
 #include <iostream>
+#include <vector>
+
+#include "Algos.h"
 
 int main()
 {
+    std::vector<std::vector<int>> edges = {
+        {1,4},
+        {4,6},
+        {6,5}
+    };
+
+    std::cout << (isCyclicDirect(edges) ? "cyclic" : "acyclic") << std::endl;
     std::cout << "Hello World!\n";
 }
 

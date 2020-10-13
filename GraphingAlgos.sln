@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphingAlgos", "GraphingAlgos\GraphingAlgos.vcxproj", "{9D59D50E-0C61-4F6A-B35F-E8B87C38A604}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgoTest", "AlgoTest\AlgoTest.vcxproj", "{CDA362D6-CEAF-48BD-88D8-27014074A823}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{9D59D50E-0C61-4F6A-B35F-E8B87C38A604}.Release|x64.Build.0 = Release|x64
 		{9D59D50E-0C61-4F6A-B35F-E8B87C38A604}.Release|x86.ActiveCfg = Release|Win32
 		{9D59D50E-0C61-4F6A-B35F-E8B87C38A604}.Release|x86.Build.0 = Release|Win32
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Debug|x64.ActiveCfg = Debug|x64
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Debug|x64.Build.0 = Debug|x64
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Debug|x86.Build.0 = Debug|Win32
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Release|x64.ActiveCfg = Release|x64
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Release|x64.Build.0 = Release|x64
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Release|x86.ActiveCfg = Release|Win32
+		{CDA362D6-CEAF-48BD-88D8-27014074A823}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
