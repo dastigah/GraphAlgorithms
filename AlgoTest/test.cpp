@@ -3,15 +3,25 @@
 
 #include "..\GraphingAlgos\Algos.h"
 
-TEST(Cyclic_, Directet) {
-  
-  std::vector<std::vector<int>> edges = {
-	  {1,2},
-	  {2,3},
-	  {3,1}
-  };
+TEST(Cyclic_Test, DirectedCyclicNormal) {
 
-  EXPECT_TRUE(isCyclicDirect(edges));
+	std::vector<std::vector<int>> edges = {
+		{1,2},
+		{2,3},
+		{3,1}
+	};
+
+	EXPECT_TRUE(isCyclicDirect(edges));
+
+	edges = {
+		{1,2},
+		{1,3},
+		{2,4},
+		{3,4},
+		{4,1}
+	};
+
+	EXPECT_TRUE(isCyclicDirect(edges));
 
 }
 

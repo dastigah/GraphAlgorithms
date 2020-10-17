@@ -3,19 +3,22 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_map>
 
 #include "Algos.h"
 
 int main()
 {
+    
     std::vector<std::vector<int>> edges = {
-        {1,4},
-        {4,6},
-        {6,5}
+        {1,2},
+        {3,1},
+        {4,2},       
     };
 
-    std::cout << (isCyclicDirect(edges) ? "cyclic" : "acyclic") << std::endl;
-    std::cout << "Hello World!\n";
+ //   std::cout << (isCyclicDirect<int>(edges) ? "cyclic" : "acyclic") << std::endl;
+    std::cout << (isCyclicUndirect<int>(edges) ? "cyclic" : "acyclic") << std::endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
